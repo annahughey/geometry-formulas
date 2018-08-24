@@ -2,7 +2,7 @@
  * Here are some useful Geometry formulas to demonstrate how functions can return values.
  * Also look at the Java Docs.
  * 
- * @author (your name) 
+ * @author (Anna Hughey) 
  * @version (a version number or a date)
  */
 public class Geometry 
@@ -10,8 +10,8 @@ public class Geometry
     /**
      * Calculates the area of a parallelogram.
      *
-     * @param b  length of base of parallelogram
-     * @param h  height of the parallelogram
+     * @param base  length of base of parallelogram
+     * @param height  height of the parallelogram
      * @return   area of the parallelogram
      */
     public static double parallelogramArea(double length, double width) 
@@ -20,10 +20,10 @@ public class Geometry
     }
     
     /**
-     * Calculates the area of a triange.
+     * Calculates the area of a triangle.
      *
-     * @param b  length of base of triangle
-     * @param h  height of the triangle
+     * @param base  length of base of triangle
+     * @param height  height of the triangle
      * @return   area of the triangle
      */
     public static double triangleArea(double base, double height) 
@@ -46,7 +46,7 @@ public class Geometry
         System.out.println(ta1);
         System.out.println(ta2);
         
-        double ra1 = rectangleArea(5.2, 9.3);
-        System.out.println(ra1);
+        double ra1 = double rectangleArea(5.2, 9.3);
+        System.out.println(ra1);    
     }
 }
